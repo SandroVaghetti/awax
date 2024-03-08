@@ -355,14 +355,16 @@ header {
 
 
 .section-team,
-.section-client {
+.section-client,
+.section-price {
     overflow: hidden;
     max-width: 880px;
     margin: auto;
 }
 
 .section-team .sliders,
-.section-client .sliders {
+.section-client .sliders,
+.section-price .sliders {
     width: 1000vw;
     height: 100%;
 }
@@ -376,7 +378,8 @@ header {
     margin-right: 20px;
 }
 
-.section-team .slidearea {
+.section-team .slidearea,
+.section-price .slidearea {
     display: flex;
     height: 100%;
     align-items: center;
@@ -417,7 +420,8 @@ header {
     height: 100%;
 }
 
-.section-team-name {
+.section-team-name,
+.section-price-name {
     text-transform: uppercase;
     font-weight: 600;
     font-size: 17px;
@@ -513,4 +517,56 @@ header {
 .default.light.bg-white {
     background-color: #ffffff;
     padding: 0px;
+}
+
+.section-price .slide {
+    width: 190px;
+    height: 100%;
+    min-height: 300px;
+    display: inline-block;
+    background-color: #ffffff;
+    margin-right: 20px;
+}
+
+.section-price-price {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.section-price-month {
+    text-transform: uppercase;
+    color: #999;
+    margin-bottom: 20px;
+}
+
+.section-price-info {
+    color: #999;
+    font-size: 10px;
+}
+
+.button.price-escuro {
+    display: inline-block;
+    background-color: #333;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 15px 35px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.button.price-normal {
+    display: inline-block;
+    background-color: #b28756;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 15px 35px;
+    margin-top: 30px;
+    border-radius: 20px;
 }
