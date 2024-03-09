@@ -379,7 +379,8 @@ header {
 }
 
 .section-team .slidearea,
-.section-price .slidearea {
+.section-price .slidearea,
+.section-premium .slidearea {
     display: flex;
     height: 100%;
     align-items: center;
@@ -390,7 +391,8 @@ header {
 }
 
 .section-team-area .sliders-pointers,
-.section-client-area .sliders-pointers {
+.section-client-area .sliders-pointers,
+.section-premium .sliders-pointers {
     margin-top: 30px;
     height: 20px;
     display: flex;
@@ -399,7 +401,8 @@ header {
 }
 
 .section-team-area .pointer,
-.section-client-area .pointer {
+.section-client-area .pointer,
+.section-premium .pointer {
     width: 15px;
     height: 15px;
     border: 2px solid #b28756;
@@ -410,7 +413,8 @@ header {
 }
 
 .section-team-area .pointer.active,
-.section-client-area .pointer.active {
+.section-client-area .pointer.active,
+.section-premium .pointer.active {
     background-color: #b28756;
 }
 
@@ -569,4 +573,72 @@ header {
     padding: 15px 35px;
     margin-top: 30px;
     border-radius: 20px;
+}
+
+
+.section-premium {
+    overflow: hidden;
+    max-width: 1140px;
+    margin: auto;
+}
+
+.section-premium-body {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    height: auto;
+}
+
+.section-premium-image {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.section-premium-image img {
+    align-items: center;
+    width: 350px;
+    justify-content: center;
+}
+
+.section-premium-info {
+    flex: 1;
+}
+
+.section-premium-info {
+    display: flex;
+
+    flex-direction: column;
+}
+
+.section-premium-info-title {
+    display: flex;
+    margin-top: 20px;
+}
+
+.section-premium-info-title img {
+    padding-right: 25px;
+}
+
+.section-premium-info-title-desc {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.section-premium-info-title-desc-normal {
+    font-size: 15px;
+    color: #999;
+    line-height: 25px;
+    padding-left: 60px;
+}
+
+.section-premium-buttons {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid gainsboro;
+    margin-top: 30px;
 }
