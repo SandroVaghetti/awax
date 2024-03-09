@@ -224,7 +224,8 @@ header {
     box-shadow: 0px 5px 10px #333;
 }
 
-.section-services {
+.section-services,
+.section-facts {
     display: flex;
 
 }
@@ -236,18 +237,51 @@ header {
     padding: 15px;
 }
 
+.section-fact {
+    flex: 1;
+    text-align: center;
+
+    padding: 15px;
+}
+
 .section-service:first-child {
     border-left: 1px solid #333;
 }
 
-.section-service h4 {
+.section-service h4,
+.section-fact h4 {
     text-transform: uppercase;
     margin-top: 20px;
     font-size: 20px;
 
 }
 
-.section-service p {
+.section-fact h1 {
+    font-size: 50px;
+    color: #b28756;
+    align-items: center;
+
+}
+
+.section-fact-barra-area {
+    display: flex;
+    justify-content: center;
+
+}
+
+.section-fact-barra {
+    width: 30px;
+    font-weight: 5px;
+    background-color: #555;
+    border: 3px solid #555;
+    margin-top: 10px;
+
+}
+
+
+
+.section-service p,
+.section-fact p {
     margin-top: 10px;
     font-size: 13px;
     color: #999;
